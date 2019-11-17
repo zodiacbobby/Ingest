@@ -26,6 +26,9 @@ package com.techbow.worksimulation.sensoriot.ingest.leetcode;
 public class Leetcode33 {
 
         public int search(int[] nums, int target) {
+
+
+            //123
             if(nums == null || nums.length == 0) return -1;
             if(nums.length == 1) return (nums[0] == target)? 0: -1;
 
