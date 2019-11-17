@@ -16,10 +16,13 @@ public class IngestController {
     @PostMapping("/data")
     public int ingest(@RequestBody AirData airData) {
 
+        System.out.println("conflicts???????????????????!");
+
         try{
             System.out.println("here we go!!");
         } catch (Exception e) {
             log.error("Data Ingest {} method error with message {}", IngestController.class.getSimpleName(), e);
+            log.error("message {}", IngestController.class.getSimpleName(), e);
         }
 
         return Response.SC_OK;

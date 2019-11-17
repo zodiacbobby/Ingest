@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LC253Test {
 
-//    @Autowired
+//@Autowired
 
     private LC253 lc253 = new LC253();
 
