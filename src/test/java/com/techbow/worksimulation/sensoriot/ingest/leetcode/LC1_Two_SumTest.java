@@ -1,7 +1,7 @@
 package com.techbow.worksimulation.sensoriot.ingest.leetcode;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Matchers.any;
