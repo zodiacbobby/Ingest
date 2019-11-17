@@ -15,7 +15,7 @@ public class IngestController {
 
     @PostMapping("/data")
     public int ingest(@RequestBody AirData airData) {
-
+        System.out.println("Test");
         try{
             System.out.println("here we go!!");
         } catch (Exception e) {
