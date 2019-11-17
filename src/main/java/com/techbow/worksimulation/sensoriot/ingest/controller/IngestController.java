@@ -21,7 +21,7 @@ public class IngestController {
         } catch (Exception e) {
             log.error("Data Ingest {} method error with message {}", IngestController.class.getSimpleName(), e);
         }
-
+        System.out.println("*****");
         return Response.SC_OK;
     }
 }
