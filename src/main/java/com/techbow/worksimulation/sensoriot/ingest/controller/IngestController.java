@@ -18,6 +18,7 @@ public class IngestController {
 
         try{
             System.out.println("here we go!!");
+            System.out.println("here we go!!");
         } catch (Exception e) {
             log.error("Data Ingest {} method error with message {}", IngestController.class.getSimpleName(), e);
         }
