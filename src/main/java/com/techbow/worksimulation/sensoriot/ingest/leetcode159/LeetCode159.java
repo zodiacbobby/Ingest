@@ -1,5 +1,12 @@
-package com.techbow.worksimulation.sensoriot.ingest;
+package com.techbow.worksimulation.sensoriot.ingest.leetcode159;
 
+import org.springframework.stereotype.Component;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+@Component
 public class LeetCode159 {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         int n = s.length();
