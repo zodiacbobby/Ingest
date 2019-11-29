@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class IngestController {
 
     @PostMapping("/data")
-
     public int ingest(@NotNull @RequestBody AirData airData) {
+        System.out.println("Test");
 
         try{
             System.out.println("here we go!!");
